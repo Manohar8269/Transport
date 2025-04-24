@@ -3,6 +3,7 @@ import Image1 from "../assets/Image1.jpg";
 import Image2 from "../assets/Image2.jpg";
 import Image3 from "../assets/Image3.jpg";
 import Image4 from "../assets/Image4.jpg";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   const images = [Image1, Image2, Image3, Image4];
@@ -28,9 +29,11 @@ const Gallery = () => {
           />
         ))}
       </div><br></br>
+      <Link to = "/Gallery">
       <button className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
         EXPLORE MORE
       </button>
+      </Link>
     </div>
   );
 };
