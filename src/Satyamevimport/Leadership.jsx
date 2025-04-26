@@ -19,7 +19,7 @@ const LeadershipSection = () => {
             className="w-100 h-100 rounded-full object-cover border-4 border-gray-300"
           />
         </div>
-        <h3 className="text-4xl font-bold text-black mt-4">MR. JENISH KAKADIYA</h3>
+        <h3 className="text-4xl font-bold text-black mt-4">MR. MANOHAR SINGH THAKUR</h3>
         <p className="text-gray-600 text-center font-bold text-lg">CEO & FOUNDER <br></br>OF SATYAMEV INTERNATIONAL<br></br>
         ( SINCE 2015 )</p>
       </div>
